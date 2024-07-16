@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('photo/photo.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.container .wrapper {
+    height: 60vh;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    background-color: rgba(47, 47, 47, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.container .wrapper #search {
+    position: relative;
+    top: 10%;
+    width: 70%;
+    height: 4vh;
+    border-top: none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent; 
+    color: white; 
+}
+
+.container .write {
+    margin-bottom: 15px;
+    position: relative;
+    top: 5%;
+}
+
+.write p {
+    color: white;
+}
+
+.write .city-name{
+    font-size: 40px;
+}
+
+.write .write-weather{
+    font-size: 45px;
+}
+
+.write .weather-type, .write-weather-moisture{
+    font-size: 30px;
+}
